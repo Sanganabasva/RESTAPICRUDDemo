@@ -19,6 +19,11 @@ namespace RESTAPICRUDDemo.EmployeeData
             {
                 Id=Guid.NewGuid(),
                 Name= "Employee Two"
+            },
+            new Employee()
+            {
+                Id=Guid.NewGuid(),
+                Name= "Employee Three"
             }
         };
         public Employee AddEmployee(Employee employee)
